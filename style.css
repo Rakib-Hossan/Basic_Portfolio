@@ -2,12 +2,13 @@
     margin:0;
     padding:0;
     font-family: 'Noto Serif', serif;
-    
 }
 header{
     background-image: url(./images/background2.jpg);
     background-size:cover;
     background-repeat: no-repeat;
+    max-width:1440px ;
+    margin:auto;
    
 }
 /* navbar style start */
@@ -61,8 +62,8 @@ nav{
 
 /* banner style start */
 .banner{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    justify-content: space-between;
     color:white;
     padding:20px;
     margin: 50px 200px;
@@ -70,10 +71,8 @@ nav{
 }
 /* banner text style */
 .banner-text h2{
-    font-size: 2.5vw;
-}
-.banner-text{
-    font-size: 1vw;
+    font-size: 40px;
+    margin:10px 0;
 }
 .header-btn{
     margin-top: 20px;
@@ -100,6 +99,35 @@ nav{
 .banner-img img{
     width: 400px;
     height:450px;
-    padding-left: 250px;
-    padding-bottom: 20px;
+}
+
+/* banner style ended */
+
+main{
+    max-width: 1440px;
+    margin: auto;
+}
+/* about section started */
+
+.about-section{
+    text-align: center;
+    padding:150px 200px; 
+    background-color: #293f5315;
+}
+.section-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.section-description{
+    margin-bottom: 30px;
+}
+.my-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.info{
+    font-weight: 700;
+    margin-top: 10px;
 }
