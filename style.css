@@ -184,6 +184,7 @@ section{
     background-image: url(/images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 50px;
 }
 .contact-section .section-title{
     text-align: center;
@@ -220,3 +221,51 @@ section{
     border: 3px solid rgb(17, 120, 100);
     font-weight: 700;
 }
+/* contact section ended  */
+
+/* footer section started  */
+
+.footer-section{
+    background-image: url(/images/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+}
+.social{
+    padding:20px;
+}
+.social h3{
+    margin-bottom: 20px;
+}
+.social .fb,.git,.linkin{
+    margin-right: 20px;
+}
+
+.fb{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.linkin{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.git{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.address h3,p{
+    margin-bottom: 20px;
+}
+.copyright-text{
+    text-align: center;
+}
+/* footer ended  */
