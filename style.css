@@ -19,15 +19,15 @@ nav{
     padding:20px;
     margin: 0 200px;
     font-size: 16px;
+    background-color:black;
 }
+
 /* logo style start */
 .logo img{
     width: 70px;
     height: 40px;
 }
-/* .logo-text{
-    color:rgb(17, 120, 100);
-} */
+
 /* logo style end */
 .menu ul{
     display: flex;
@@ -38,7 +38,11 @@ nav{
     margin-left: 50px;
     font-weight: 700;
 }
-.menu li:hover{
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover{
     color: rgb(10, 120, 100);
     font-weight: 700;
     
@@ -58,6 +62,7 @@ nav{
     padding:10px 30px;
 }
 /* hire button style end  */
+
 /* nav style end */
 
 /* banner style start */
@@ -136,7 +141,7 @@ section{
 /* about section ended  */
 
 /* skills section started */
-.skill-section{
+#skill-section{
     text-align: center;
 }
 .skill-container{
@@ -180,13 +185,13 @@ section{
 /* resume section ended */
 
 /* contact section started  */
-.contact-section{
+#contact-section{
     background-image: url(/images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 50px;
 }
-.contact-section .section-title{
+#contact-section .section-title{
     text-align: center;
 }
 .contact-container{
