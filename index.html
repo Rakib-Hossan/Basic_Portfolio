@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rakib-Hossan</title>
+    <!-- external css file  -->
     <link rel="stylesheet" href="style.css">
+    <!-- css file for responsive -->
+    <link rel="stylesheet" href="/responsive.css">
     <!-- favicon  -->
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
@@ -25,14 +28,13 @@
         <!-- navbar started-->
         <nav class="navbar">
             <div class="logo">
-                <!-- <h4 class="logo">R<span class="logo-text">h</span>R</h4> -->
                 <img src="./images/logo.png" alt="logo" >
             </div>
             <div class="menu">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#skill-section">Skills</a></li>
-                    <li class="hire_btn"><a href="#contact-section">Hire me</a></li>
+                    <li><a href="#contact-section" class="hire_btn">Hire me</a></li>
                 </ul>
             </div>
         </nav>
@@ -41,7 +43,7 @@
         <!-- banner started-->
         <div class="banner">
             <div class="banner-text">
-                <h3>Hi, I'm</h3>
+                <h4>Hi, I'm</h4>
                 <h2>Rakib Hossan Redoy</h2>
                 <p>I'm a passionate and driven Junior Web Developer eager to make my mark in the digital world. With a creative mind and a knack for coding, I'm on a mission to turn ideas into captivating online experiences.</p>
                 <div class="header-btn">
@@ -107,7 +109,7 @@
         <section class="resume">
             <h2 class="section-title">A summary of my resume</h2>
             <div class="resume-container">
-                <div>
+                <div class="education">
                     <h3 class="resume-title">My Education</h3>
                     <div class="resume-info">
                         <h4 class="sub-title">BSc in Computer Science and Engineering</h4>
@@ -124,7 +126,7 @@
                         <br><hr>
                     </div>
                 </div>
-                <div>
+                <div class="training">
                     <h3 class="resume-title">Professional training</h3>
                     <div class="resume-info">
                         <h4 class="sub-title">MERN Stack Web development</h4>
@@ -146,7 +148,7 @@
          <section id="contact-section">
             <h2 class="section-title">Contact Me</h2>
             <div class="contact-container">
-                <div>
+                <div class="contact-img">
                     <img src="/images/programmer.jpg" alt="">
                 </div>
                 <div class="contact-from">
@@ -155,7 +157,7 @@
                         <br>
                         <input type="email" name="" id="" placeholder="Your Email">
                         <br>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Massage"></textarea><br>
+                        <textarea name="" id="" cols="20" rows="10" placeholder="Your Massage"></textarea><br>
                         <input type="submit" value="Submit" class="submit-btn">
                     </form>
                 </div>

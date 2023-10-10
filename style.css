@@ -2,14 +2,12 @@
     margin:0;
     padding:0;
     font-family: 'Noto Serif', serif;
+    box-sizing: border-box;
 }
 header{
     background-image: url(./images/background2.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    max-width:1440px ;
-    margin:auto;
-   
 }
 /* navbar style start */
 nav{
@@ -17,9 +15,7 @@ nav{
     justify-content: space-between;
     color:white;
     padding:20px;
-    margin: 0 200px;
-    font-size: 16px;
-    background-color:black;
+    margin:0px 200px;
 }
 
 /* logo style start */
@@ -36,7 +32,7 @@ nav{
 .menu li{
     list-style: none;
     margin-left: 50px;
-    font-weight: 700;
+    font-weight: 600;
 }
 .menu li a{
     text-decoration: none;
@@ -52,14 +48,12 @@ nav{
     background-color: rgb(17, 120, 100);
     color:white;
     text-decoration: none;
-    padding:10px 30px;
+    padding:10px 20px;
     border: none;
 }
 .hire_btn:hover{
     background-color: white;
     color:rgb(17, 120, 100);
-    text-decoration: none;
-    padding:10px 30px;
 }
 /* hire button style end  */
 
@@ -70,24 +64,28 @@ nav{
     display: flex;
     justify-content: space-between;
     color:white;
-    padding:20px;
-    margin: 50px 200px;
     align-items: center;
+    gap:50px;
+    margin:50px 200px;
 }
 /* banner text style */
+.banner-text{
+    flex-basis: 60%;
+}
 .banner-text h2{
-    font-size: 40px;
+    font-size: 30px;
     margin:10px 0;
 }
 .header-btn{
-    margin-top: 20px;
+    display: flex;
+    gap: 5px;
     font-family:'Noto Serif', serif;
 }
 .cv-btn{
     background-color:blueviolet;
     color:white;
     text-decoration: none;
-    padding:10px 30px;
+    padding:10px 20px;
     border: none;
 }
 .cv-btn:hover{
@@ -98,12 +96,15 @@ nav{
     border: none;
 }
 .header-btn .hire_btn, .cv-btn{
-    font-size: 16px;
     font-weight: 600;
 }
+.banner-img{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+}
 .banner-img img{
-    width: 400px;
-    height:450px;
+   width: 100%;
 }
 
 /* banner style ended */
@@ -147,6 +148,7 @@ section{
 .skill-container{
     display: flex;
     justify-content: space-between;
+    gap:20px;
 }
 .skill{
     box-shadow: 0px 10px 25px gray;
@@ -168,6 +170,7 @@ section{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 .resume .section-title{
     text-align: center;
@@ -194,24 +197,30 @@ section{
 #contact-section .section-title{
     text-align: center;
 }
-.contact-container{
-   display: flex;
-   gap: 20px;
-   align-items: center;
-}
 .contact-section{
     box-shadow: 0px 10px 25px gray;
     border-radius: 15px;
 }
-.contact-from input,textarea{
-    margin-bottom: 25px;
+.contact-container{
+   display: flex;
+   gap: 20px;
+   align-items: space-between;
+}
+.contact-img{
+    flex-basis:50%;
+}
+.contact-img img{
     width: 100%;
-    padding: 15px;
+}
+.contact-from{
+    flex-basis: 50%;
+}
+.contact-from input,textarea{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
     font-size: 16px;
     border: 3px solid rgb(17, 120, 100);
-}
-.contact-from input[type="submit"]{
-    margin-left: 20px;
 }
 
 .submit-btn{
@@ -266,11 +275,13 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap:20px;
 }
 .address h3,p{
     margin-bottom: 20px;
 }
 .copyright-text{
     text-align: center;
+    margin-top: 20px;
 }
 /* footer ended  */

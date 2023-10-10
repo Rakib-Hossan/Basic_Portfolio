@@ -1,0 +1,252 @@
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .banner-text h2{
+        font-size: 25px;
+    }
+    .banner-text p{
+        font-size: 14px;
+    }
+    section{
+        padding:100px 150px; 
+    }
+    .skill img{
+        width:150px;
+        height: 150px;
+    }
+    .education{
+        flex-basis: 50%;
+    }
+    .training{
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    nav{
+        margin:0px 100px;
+    }
+    .banner{
+        flex-wrap: wrap;
+        margin:50px 100px;
+    }
+    .banner-text{
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    .banner-img{
+        flex-basis: 100%;
+    }
+    .banner-img img{
+        width:70%;
+    }
+    section{
+        padding:100px 100px; 
+    }
+    .my-info{
+        flex-wrap: wrap;
+    }
+    .about-info{
+        flex-basis: 50%;
+    }
+    .skill img{
+        width:100px;
+        height: 100px;
+    }
+    .contact-img img{
+        width: 350px;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .banner{
+        flex-wrap: wrap;
+        margin:50px 100px;
+    }
+    .banner-text{
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    .banner-text h2{
+        font-size: 20px;
+    }
+    .banner-img{
+        flex-basis: 100%;
+    }
+    .banner-img img{
+        width:70%;
+    }
+
+    nav{
+        padding:10px;
+        margin:0px 70px;
+        align-items: center;
+    }
+    section{
+        padding:100px 100px; 
+    }
+    .my-info{
+        flex-wrap: wrap;
+    }
+    .about-info{
+        flex-basis: 100%;
+    }
+    .info{
+        font-weight: 600;
+    }
+    .skill-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .resume-container{
+        flex-wrap: wrap;
+    }
+    .contact-container{
+        flex-wrap: wrap;
+       }
+       .contact-img{
+          flex-basis: 100%;
+       }
+       .contact-from{
+          flex-basis: 100%;
+      }
+      .footer-container{
+        flex-wrap: wrap;
+        justify-content: center;
+       }
+}
+@media screen and (min-width:425px) and (max-width:575px){
+    .banner{
+        flex-wrap: wrap;
+        margin:50px 80px;
+    }
+    .banner-text{
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    .banner-text h2{
+        font-size: 18px;
+    }
+    .banner-text p{
+        font-size: 14px;
+    }
+    .banner-img{
+        flex-basis: 100%;
+    }
+    .banner-img img{
+        width:70%;
+    }
+    .header-btn{
+        flex-wrap: wrap;
+    }
+    .cv-btn{
+        flex-basis: 100%;
+    }
+    .hire_btn{
+        flex-basis: 100%;
+    }
+    nav{
+        margin:0px 10px;
+    }
+    section{
+        padding:50px 70px; 
+    }
+    .my-info{
+        flex-wrap: wrap;
+    }
+    .about-info{
+        flex-basis: 100%;
+    }
+    .info{
+        font-weight: 600;
+    }
+    .skill-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .resume-container{
+        flex-wrap: wrap;
+    }
+    .contact-container{
+      flex-wrap: wrap;
+     }
+     .contact-img{
+        flex-basis: 100%;
+     }
+     .contact-from{
+        flex-basis: 100%;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+        justify-content: center;
+       }
+}
+
+@media screen  and (max-width:424px){
+    .banner{
+        flex-wrap: wrap;
+        margin:50px 50px;
+    }
+    .banner-text{
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    .banner-text h2{
+        font-size: 18px;
+    }
+    .banner-text p{
+        font-size: 14px;
+    }
+    .banner-img{
+        flex-basis: 100%;
+    }
+    .banner-img img{
+        width:70%;
+    }
+    .header-btn{
+        flex-wrap: wrap;
+    }
+    .cv-btn{
+        flex-basis: 100%;
+    }
+    .hire_btn{
+        flex-basis: 100%;
+    }
+    nav{
+        margin:0px 5px;
+    }
+    section{
+        padding:50px 50px; 
+    }
+    .section-description{
+        text-align: justify;
+    }
+    .my-info{
+        flex-wrap: wrap;
+    }
+    .about-info{
+        flex-basis: 100%;
+    }
+    .info{
+        font-weight: 600;
+    }
+    .skill-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .resume-container{
+        flex-wrap: wrap;
+    }
+    .contact-container{
+        flex-wrap: wrap;
+       }
+       .contact-img{
+          flex-basis: 100%;
+       }
+       .contact-from{
+          flex-basis: 100%;
+      }
+      .footer-container{
+        flex-wrap: wrap;
+        justify-content: center;
+       }
+}
