@@ -8,41 +8,48 @@ header{
     background-image: url(./images/background2.jpg);
     background-size:cover;
     background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
 }
 /* navbar style start */
-nav{
+.navbar {
     display: flex;
     justify-content: space-between;
-    color:white;
-    padding:20px;
-    margin:0px 200px;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    position: sticky;
+    top:0px;
+    z-index: 2;
 }
 
 /* logo style start */
 .logo img{
-    width: 70px;
-    height: 40px;
+    width: 60px;
+    height: 30px;
 }
 
 /* logo style end */
-.menu ul{
-    display: flex;
-    align-items: center;
-}
-.menu li{
+.navbar-menu {
     list-style: none;
-    margin-left: 50px;
-    font-weight: 600;
+    display: flex;
+    gap: 30px;
 }
-.menu li a{
+.navbar-menu li{
+    padding:10px;
+}
+.navbar-menu a {
+    color: #fff;
     text-decoration: none;
-    color: white;
 }
-.menu li a:hover{
-    color: rgb(10, 120, 100);
-    font-weight: 700;
-    
+
+.navbar-toggle {
+    display: none;
 }
+.navbar-toggle-label{
+    display: none;
+}
+
 /* hire button style start  */
 .hire_btn{
     background-color: rgb(17, 120, 100);
