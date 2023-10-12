@@ -8,8 +8,8 @@ header{
     background-image: url(./images/background2.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 50px;
+    position: relative;
+    top: -50px;
 }
 /* navbar style start */
 .navbar {
@@ -74,6 +74,7 @@ header{
     align-items: center;
     gap:50px;
     margin:50px 200px;
+    padding-top:50px;
 }
 /* banner text style */
 .banner-text{
@@ -125,7 +126,7 @@ section{
 }
 /* about section started */
 
-.about-section{
+#about-section{
     background-color: #293f5315;
     text-align: center;
 }
